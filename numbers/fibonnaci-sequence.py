@@ -7,6 +7,8 @@ Concept(s): recursion, error handling
 """
 
 def main():
+    print("This program will return the Fibonacci sequence at a given "
+          "position.")
     while True:
         try:
             n = int(raw_input("Enter a number: "))

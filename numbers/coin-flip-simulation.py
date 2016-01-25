@@ -13,6 +13,7 @@ heads = 0;
 tails = 0;
 
 def main():
+    print("This program will flip a coin and record the outcomes.")
     while True:
         run = raw_input("Flip a coin? (y/n/reset): ")
         if run == "y":
@@ -39,7 +40,7 @@ def flip():
         tails += 1;
         value = "tails"
     return ("The coin landed on "+value+", for a total of "+str(heads)+" heads "
-        "and "+str(tails)+" tails.")
+            "and "+str(tails)+" tails.")
         
 def invalid_input():
     return "Input must be a positive integer."
