@@ -26,7 +26,7 @@ def main():
             heads = 0;
             tails = 0;
         else: 
-            print("Input invalid.")
+            invalid_input()
 
 def flip():
     value = ""
@@ -43,6 +43,6 @@ def flip():
             "and "+str(tails)+" tails.")
         
 def invalid_input():
-    return "Input must be a positive integer."
+    print("Invalid input.")
     
 main()

@@ -14,7 +14,7 @@ def main():
             n = int(raw_input("Enter a number: "))
             print(fibonacci(n))
         except ValueError:
-            print(invalid_input())
+            invalid_input()
 
 def fibonacci(n):
     if isinstance(n, int) and n > 0:
@@ -26,6 +26,6 @@ def fibonacci(n):
         return invalid_input()
 
 def invalid_input():
-    return "Input must be a positive integer."
+    print("Input must be a positive integer.")
     
 main()
