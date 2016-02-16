@@ -23,7 +23,7 @@ def fibonacci(n):
         elif n >= 2:
             return fibonacci(n-1) + fibonacci(n-2)
     else:
-        return invalid_input()
+        raise ValueError
 
 def invalid_input():
     print("Input must be a positive integer.")
