@@ -6,7 +6,7 @@ Concept(s): simplicity, string
 """
 
 def main():
-    print("This program will take input and print it out backwards.")
+    print "This program will take input and print it out backwards."
     while True:
         s = raw_input("Enter a string: ")
         print(s[::-1])

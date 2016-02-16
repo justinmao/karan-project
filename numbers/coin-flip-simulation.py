@@ -13,7 +13,7 @@ heads = 0;
 tails = 0;
 
 def main():
-    print("This program will flip a coin and record the outcomes.")
+    print "This program will flip a coin and record the outcomes."
     while True:
         run = raw_input("Flip a coin? (y/n/reset): ")
         if run == "y":
@@ -43,6 +43,6 @@ def flip():
             "and "+str(tails)+" tails.")
         
 def invalid_input():
-    print("Invalid input.")
+    print "Invalid input."
     
 main()

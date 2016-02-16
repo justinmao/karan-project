@@ -7,7 +7,7 @@ Concept(s): for-loop
 """
 
 def main():
-    print("This program will count the number of vowels in input.")
+    print "This program will count the number of vowels in input."
     while True:
         s = raw_input("Enter a string: ")
         n = count_vowels(s)

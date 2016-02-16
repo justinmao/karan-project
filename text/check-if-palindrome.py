@@ -7,7 +7,7 @@ Concept(s): mod
 """
 
 def main():
-    print("This program will take input and check whether it is a palindrome.")
+    print "This program will take input and check whether it is a palindrome."
     while True:
         s = raw_input("Enter a string: ")
         if len(s) != 0:

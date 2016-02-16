@@ -8,9 +8,9 @@ Concept(s): mod
 """
 
 def main():
-    print("This program will print out numbers from 1 to 100, replacing "
+    print "This program will print out numbers from 1 to 100, replacing "
           "multiples of 3 with \"Fizz\", multiples of 5 with \"Buzz\" "
-          "and multiples of both 3 and 5 with \"FizzBuzz\".")
+          "and multiples of both 3 and 5 with \"FizzBuzz\"."
     n = 1
     while n <= 100:
         print(fizzbuzz(n))
