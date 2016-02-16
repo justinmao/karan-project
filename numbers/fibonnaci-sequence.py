@@ -7,8 +7,8 @@ Concept(s): recursion, error handling
 """
 
 def main():
-    print "This program will return the Fibonacci sequence at a given "
-          "position."
+    print ("This program will return the Fibonacci sequence at a given "
+           "position.")
     while True:
         try:
             n = int(raw_input("Enter a number: "))
@@ -26,6 +26,6 @@ def fibonacci(n):
         raise ValueError
 
 def invalid_input():
-    print "Input must be a positive integer."
+    print "Input must be a positive integer." 
     
 main()
